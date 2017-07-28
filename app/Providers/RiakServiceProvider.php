@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use View;
 
 class RiakServiceProvider extends ServiceProvider
 {
@@ -14,10 +15,8 @@ class RiakServiceProvider extends ServiceProvider
     public function boot()
     {
         $carbon = new \Carbon\Carbon();
-        \Carbon\Carbon::setLocale('es');.
-        View::share('carbon', $carbon);       
-
-
+        \Carbon\Carbon::setLocale('es');
+        View::share('carbon', $carbon);    
     }
 
     /**

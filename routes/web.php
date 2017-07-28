@@ -11,9 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', 'Cliente\ClienteController@index');
+Route::post('add/{id}', 'Cliente\ClienteController@cart');
+Route::get('show', 'Cliente\ClienteController@show');
+Route::get('borrar/{id}', 'Cliente\ClienteController@destroy');
+Route::get('a', 'Cliente\ClienteController@prueba');
+Route::post('cotizar', 'Cliente\ClienteController@store');
 
 Route::group(['middleware' => 'auth'], function () {
     //    Route::get('/link1', function ()    {

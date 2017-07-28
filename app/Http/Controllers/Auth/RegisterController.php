@@ -78,6 +78,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        /*
         $fields = [
             'name'     => $data['name'],
             'email'    => $data['email'],
@@ -87,5 +88,6 @@ class RegisterController extends Controller
             $fields['username'] = $data['username'];
         }
         return User::create($fields);
+        */
     }
 }

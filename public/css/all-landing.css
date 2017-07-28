@@ -1555,7 +1555,12 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+   /* width: 1170px;*/
+   width: 100%;
+  }
+  .menucontenedor {
+   width: 1170px;
+   
   }
 }
 .container-fluid {
@@ -4328,11 +4333,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  /*background-color: #ff9727;*/
+  /*border-color: #ff9727;*/
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #fff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4343,7 +4348,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #fff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4353,8 +4358,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
-  background-color: #e7e7e7;
+  color: #fff;
+  background-color: #f08519;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -6481,7 +6486,7 @@ button.close {
 
 /* Pratt Landing page css http://blacktie.co/demo/pratt/assets/css/main.css */
 body {
-    background-color: #f2f2f2;
+   /* background-color: #f2f2f2;*/
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -6508,11 +6513,12 @@ p {
 
 .centered {
     text-align: center;
+    padding-top: 89px;
 }
 
 /* Links */
 a {
-    color: #3bc492;
+    color: #ff9727;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -6553,7 +6559,7 @@ hr {
    ========================================================================== */
 
 #headerwrap {
-    background-color: #34495e;
+   /* background-color: #34495e;*/
     padding-top: 60px;
 }
 
@@ -6584,7 +6590,7 @@ hr {
 
 #intro {
     padding-top: 50px;
-    border-top: #bdc3c7 solid 5px;
+   /* border-top: #bdc3c7 solid 5px;*/
 }
 
 #features {
@@ -6630,7 +6636,7 @@ hr {
 /* Copyright Wrap */
 
 #c {
-    background: #222222;
+    background: #ff9727;
     padding-top: 15px;
     text-align: center;
 }
