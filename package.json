@@ -1,0 +1,39 @@
+{
+  "name": "bootlight",
+  "version": "0.1.0",
+  "description": "UI for developing responsive, mobile first projects on the web.",
+  "main": "src/index.html",
+  "scripts": {
+    "sass": "sass src/scss/bootlight.scss dist/css/bootlight.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corpjorge/bootlight.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "responsive",
+    "front-end",
+    "web",
+    "UI",
+    "User interface",
+    "theme",
+    "template"
+  ],
+  "author": "corpjorge",
+  "contributors": [
+    "SuperFluo S.A.S"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corpjorge/bootlight/issues"
+  },
+  "homepage": "https://github.com/corpjorge/bootlight#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
+}
