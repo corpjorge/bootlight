@@ -1,36 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,300&display=swap");
 
-$crimson: #E6312E;
-$ecstasy: #F67524;
-$sun: #F8B418;
-$turbo: #FEE600;
-$atlantis: #99C931;
-$apple: #64AD34;
-$green-haze: #00944E;
+$crimson: #e6312e;
+$ecstasy: #f67524;
+$sun: #f8b418;
+$turbo: #fee600;
+$atlantis: #99c931;
+$apple: #64ad34;
+$green-haze: #00944e;
 $blue: #005693;
-$denim: #1782B8;
-
+$denim: #1782b8;
 $primary: $blue;
 $success: $apple;
 $info: $denim;
 $warning: $turbo;
 $danger: $crimson;
-
-$border-radius: .6rem;
-
+$border-radius: 0.6rem;
 $spacer: 1rem;
 $spacers: (
         0: 0,
-        1: $spacer * .25,
-        2: $spacer * .5,
+        1: $spacer * 0.25,
+        2: $spacer * 0.5,
         3: $spacer,
         4: $spacer * 1.5,
         5: $spacer * 3,
         6: $spacer * 6,
 );
-
 $utilities: (
-        "min-viewport-height": (
+        "min-viewport-height":
+        (
                 property: min-height,
                 class: min-vh,
                 values: (
@@ -39,6 +36,4 @@ $utilities: (
                 )
         ),
 );
-
-$font-family-sans-serif: 'Montserrat', sans-serif !important;
-
+$font-family-sans-serif: "Montserrat", sans-serif !important;
