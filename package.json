@@ -4,7 +4,7 @@
   "description": "UI for developing responsive, mobile first projects on the web.",
   "main": "page/index.html",
   "scripts": {
-    "sass": "sass scss/bootlight.scss dist/css/bootlight.css"
+    "sass": "sass --watch scss/bootlight.scss dist/css/bootlight.css"
   },
   "repository": {
     "type": "git",
