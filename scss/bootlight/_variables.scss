@@ -1,21 +1,19 @@
 // Colors
-$crimson: #e6312e;
-$ecstasy: #f67524;
-$sun: #f8b418;
-$turbo: #fee600;
-$atlantis: #99c931;
-$apple: #64ad34;
-$green-haze: #00944e;
+
+// red colors
+$red-200: #e6312e;
+
+// blue colors
 $blue: #005693;
 $blue-900: #0056934a;
 $denim: #1782b8;
 
 // Theme-colors
 $primary: $blue;
-$success: $apple;
-$info: $denim;
-$warning: $turbo;
-$danger: $crimson;
+$success: $blue;
+$info: $blue;
+$warning: $blue;
+$danger: $red-200;
 $border-radius: 0.6rem;
 
 // Spacer
