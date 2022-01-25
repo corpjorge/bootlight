@@ -11614,6 +11614,10 @@ a {
   margin: 63px 0 0 20px !important;
 }
 
+.nav-pills .nav-link no-border {
+  border-radius: 0;
+}
+
 .active {
   color: #fff;
   background-color: #005693 !important;
