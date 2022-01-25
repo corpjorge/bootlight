@@ -1,6 +1,6 @@
 {
   "name": "bootlight",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "bootlight UI for developing responsive, mobile first projects on the web.",
   "style": "dist/css/bootlight.css",
   "browser": "dist/js/bootlight.js",
