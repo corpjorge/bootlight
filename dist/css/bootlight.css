@@ -11885,4 +11885,8 @@ a {
   border-top: 1px solid #1782b8 !important;
 }
 
+.modal-backdrop {
+  width: 0;
+}
+
 /*# sourceMappingURL=bootlight.css.map */
