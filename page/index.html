@@ -8,6 +8,13 @@
 </head>
 <body>
 <div class="container-fluid">
+    <div class="pull-alert scale-in-ver-top">
+        <div class="alert pull-right alert-danger">
+            <button type="button" class="btn btn-default btn-circle btn-xl-alert btn-lateral btn-float-alert"></button>
+            <hr class="hr-alert">
+            <strong> message</strong>
+        </div>
+    </div>
     <div class="row mg-6">
         <div id="sidebar" class="fixed-top flex-column flex-shrink-0 bg-light shadow-lg rounded"
              style="width: 4.5rem; padding: 0;">
@@ -18,7 +25,7 @@
             </a>
             <ul class="nav nav-pills nav-flush flex-column mb-auto text-center" style="margin-bottom: 300% !important;">
                 <li class="nav-item">
-                    <a href="" class="nav-link py-3 border-bottom" aria-current="page" title="Home"
+                    <a href="" class="nav-link py-3 border-bottom active" aria-current="page" title="Home"
                        data-bs-toggle="tooltip" data-bs-placement="right">
                         <i class="bi-house" style="font-size: x-large;"></i>
                     </a>
@@ -88,7 +95,7 @@
                                             <div class="col-sm-6">
                                                 <label for="db" class="form-label">Base de datos</label>
                                                 <div class="input-group mb-3">
-                                                    <span class="input-group-text" id="db">{{ prefix }}</span>
+                                                    <span class="input-group-text" id="db">BD</span>
                                                     <input type="text" class="form-control" placeholder="db"
                                                            aria-label="db"
                                                            aria-describedby="basic-addon1"
@@ -137,9 +144,9 @@
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <th scope="row">{{ cooperative.id }}</th>
-                                                <td>{{ cooperative.name }}</td>
-                                                <td>{{ cooperative.db }}</td>
+                                                <th scope="row">id</th>
+                                                <td>name</td>
+                                                <td>db</td>
                                                 <td>
                                                     <a href="">
                                                         <i class="bi bi-arrow-right-circle"></i>
