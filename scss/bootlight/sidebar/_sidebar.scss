@@ -1,0 +1,23 @@
+.active {
+  color: #fff;
+  background-color: #005693 !important;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%)
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #6495ed;
+}
+
+#sidebar {
+  margin: 35px 0 30px 27px;
+}
+
+@media only screen and (max-width: 700px) {
+  #sidebar {
+    display: none !important;
+  }
+}
+
+.border-bottom-primary {
+  border-bottom: 1px solid #0056934a !important;
+}

@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,300&display=swap");
+
 body {
-  // font-family: 'Montserrat', sans-serif !important;
   color: #344767;
   background: #f5f6fa;
 }
@@ -8,18 +9,6 @@ main > .container {
   padding: 60px 15px 0;
 }
 
-.router-link-active {
-  color: #fff;
-  background-color: #005693 !important;
-}
-
-.nav-link:hover, .nav-link:focus {
-  color: #6495ed;
-}
-
-.card {
-  margin: 63px 0 0 20px !important;
-}
 
 h1 h2 h3 h4 h5 h6 {
   font-weight: 400;
@@ -31,13 +20,10 @@ a {
   cursor: pointer;
 }
 
-#sidebar {
-  margin: 35px 0 30px 27px;
-}
 
 @media only screen and (max-width: 600px) {
   .card {
-    margin: 63px 0 0!important
+    margin: 63px 0 0 !important
   }
 }
 

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,300&display=swap");
-
+// Colors
 $crimson: #e6312e;
 $ecstasy: #f67524;
 $sun: #f8b418;
@@ -8,13 +7,18 @@ $atlantis: #99c931;
 $apple: #64ad34;
 $green-haze: #00944e;
 $blue: #005693;
+$blue-900: #0056934a;
 $denim: #1782b8;
+
+// Theme-colors
 $primary: $blue;
 $success: $apple;
 $info: $denim;
 $warning: $turbo;
 $danger: $crimson;
 $border-radius: 0.6rem;
+
+// Spacer
 $spacer: 1rem;
 $spacers: (
         0: 0,
@@ -25,6 +29,8 @@ $spacers: (
         5: $spacer * 3,
         6: $spacer * 6,
 );
+
+// Utilities
 $utilities: (
         "min-viewport-height":
         (
@@ -36,4 +42,6 @@ $utilities: (
                 )
         ),
 );
+
+// Font
 $font-family-sans-serif: "Montserrat", sans-serif !important;
