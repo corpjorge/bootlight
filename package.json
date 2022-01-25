@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "description": "UI for developing responsive, mobile first projects on the web.",
   "style": "dist/css/bootlight.css",
+  "browser": "dist/js/bootlight.js",
   "sass": "scss/bootlight.scss",
-  "main": "page/index.html",
+  "main": "index.js",
   "scripts": {
     "sass": "npx stylelint \"**/*.scss\" & sass --watch scss/bootlight.scss dist/css/bootlight.css",
     "tsc": "tsc --watch",
