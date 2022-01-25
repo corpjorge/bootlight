@@ -8,7 +8,8 @@
   "scripts": {
     "sass": "npx stylelint \"**/*.scss\" & sass --watch scss/bootlight.scss dist/css/bootlight.css",
     "tsc": "tsc --watch",
-    "build": "sass scss/bootlight.scss dist/css/bootlight.min.css --style compressed",
+    "terser": "terser dist/js/bootlight.js -o dist/js/bootlight.min.js --source-map",
+    "build": "sass scss/bootlight.scss dist/css/bootlight.min.css --style compressed & terser dist/js/bootlight.js & terser dist/js/bootlight.js -o dist/js/bootlight.min.js --source-map"
   },
   "repository": {
     "type": "git",
