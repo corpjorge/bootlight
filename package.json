@@ -2,6 +2,8 @@
   "name": "bootlight",
   "version": "0.1.0",
   "description": "UI for developing responsive, mobile first projects on the web.",
+  "style": "dist/css/bootlight.css",
+  "sass": "scss/bootlight.scss",
   "main": "page/index.html",
   "scripts": {
     "sass": "npx stylelint \"**/*.scss\" & sass --watch scss/bootlight.scss dist/css/bootlight.css",
@@ -14,13 +16,19 @@
   "keywords": [
     "css",
     "sass",
+    "bootstrap 5.1",
+    "dashboard",
     "responsive",
     "front-end",
     "web",
     "UI",
     "User interface",
     "theme",
-    "template"
+    "template",
+    "responsive bootstrap dashboard",
+    "html dashboard",
+    "html css dashboard",
+    "web dashboard"
   ],
   "author": "corpjorge",
   "contributors": [
