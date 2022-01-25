@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootlight</title>
+    <link href="../dist/css/bootlight.css" rel="stylesheet">
+</head>
+<body style="background-color: #00c0f1">
+<div class="text-center mt-5">
+    <main class="form-signin">
+        <form autocomplete="off" method="get" action="index.html">
+            <i id="logo" class="bi-compass mb-4" style="font-size: 4.3rem; color: #005693;"></i>
+            <h1 class="h3 mb-3 fw-bold text-white text-uppercase">log in</h1>
+            <div class="form-floating my-2">
+                <input type="email" class="form-control rounded shadow" id="email" placeholder="email" required>
+<!--                <div class="invalid my-1">Email is not valid.</div>-->
+                <label for="email">Email</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control rounded shadow" id="floatingPassword"
+                       placeholder="Contraseña" required>
+<!--                <div class="invalid my-1"> password is not valid.</div>-->
+                <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary rounded-pill shadow" type="submit">Entrar</button>
+            <p class="mt-5 mb-3 text-white">&copy; 2022</p>
+        </form>
+    </main>
+</div>
+<script src="../dist/js/bootlight.js"></script>
+</body>
+</html>
