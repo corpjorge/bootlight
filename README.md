@@ -1,2 +1,2 @@
-# bootlight
+# Bootlight
 
