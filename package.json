@@ -7,10 +7,12 @@
   "sass": "scss/bootlight.scss",
   "main": "index.js",
   "scripts": {
-    "sass": "npx stylelint \"**/*.scss\" & sass --watch scss/bootlight.scss dist/css/bootlight.css",
+    "sass": "sass --watch scss/bootlight.scss dist/css/bootlight.css",
     "tsc": "tsc --watch",
+    "stylelint": "npx stylelint \"**/*.scss\"",
     "terser": "terser dist/js/bootlight.js -o dist/js/bootlight.min.js --source-map",
-    "build": "sass scss/bootlight.scss dist/css/bootlight.min.css --style compressed & terser dist/js/bootlight.js & terser dist/js/bootlight.js -o dist/js/bootlight.min.js --source-map"
+    "build": "sass scss/bootlight.scss dist/css/bootlight.min.css --style compressed & terser dist/js/bootlight.js & terser dist/js/bootlight.js -o dist/js/bootlight.min.js --source-map",
+    "star": "npx stylelint \"**/*.scss\" & sass --watch scss/bootlight.scss dist/css/bootlight.css"
   },
   "repository": {
     "type": "git",
