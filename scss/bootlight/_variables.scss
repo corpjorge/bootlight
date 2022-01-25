@@ -1,19 +1,39 @@
 // Colors
 
+// gray color
+$gray-500: #f1f2f6;
+
+// purple color
+$purple-500: #940F8C;
+
+// brown color
+$brown-900: #2f2d2a;
+
+// orange colors
+$orange-200: #EB8B13;
+
+// green colors
+$green-200: #1ca995f2;
+$green-500: #339407;
+
 // red colors
-$red-200: #e6312e;
+$red-200: #EB4250;
 
 // blue colors
-$blue: #005693;
+$blue-500: #005693;
 $blue-900: #0056934a;
 $denim: #1782b8;
 
 // Theme-colors
-$primary: $blue;
-$success: $blue;
-$info: $blue;
-$warning: $blue;
+$primary: $blue-500;
+$secondary: $purple-500;
+$success: $green-500;
 $danger: $red-200;
+$warning: $orange-200;
+$info: $green-200;
+$light: $gray-500;
+$dark: $brown-900;
+$link: $blue-500;
 $border-radius: 0.6rem;
 
 // Spacer
