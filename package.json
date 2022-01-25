@@ -7,7 +7,8 @@
   "main": "page/index.html",
   "scripts": {
     "sass": "npx stylelint \"**/*.scss\" & sass --watch scss/bootlight.scss dist/css/bootlight.css",
-    "build": "sass scss/bootlight.scss dist/css/bootlight.min.css --style compressed"
+    "tsc": "tsc --watch",
+    "build": "sass scss/bootlight.scss dist/css/bootlight.min.css --style compressed",
   },
   "repository": {
     "type": "git",
@@ -48,6 +49,10 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard": "^24.0.0",
-    "stylelint-config-standard-scss": "^3.0.0"
+    "stylelint-config-standard-scss": "^3.0.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "terser": "^5.10.0"
   }
 }
