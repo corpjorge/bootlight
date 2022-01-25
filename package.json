@@ -4,7 +4,8 @@
   "description": "UI for developing responsive, mobile first projects on the web.",
   "main": "page/index.html",
   "scripts": {
-    "sass": "sass --watch scss/bootlight.scss dist/css/bootlight.css"
+    "sass": "npx stylelint \"**/*.scss\" & sass --watch scss/bootlight.scss dist/css/bootlight.css",
+    "build": "sass scss/bootlight.scss dist/css/bootlight.min.css --style compressed"
   },
   "repository": {
     "type": "git",
@@ -37,10 +38,8 @@
     "sass": "^1.49.0",
     "stylelint": "^14.3.0",
     "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0"
-  },
-  "dependencies": {
-    "stylelint-config-prettier-scss": "^0.0.1"
   }
 }
