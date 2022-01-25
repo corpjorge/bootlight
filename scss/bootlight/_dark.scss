@@ -1,0 +1,41 @@
+.dark {
+  color: #f5f6fa;
+  background: #1e1e2f !important;
+}
+
+.dark div[class~="card"] {
+  color: #f5f6fa;
+  background: #27293d !important;
+}
+
+.dark table {
+  color: #f5f6fa;
+}
+
+.dark table tr:hover {
+  background-color: #656782;
+}
+
+.dark table tr:hover th {
+  color: #4cbebc;
+}
+
+.dark table tr:hover td {
+  color: #4cbebc;
+}
+
+.dark #sidebar {
+  background-color: #27293d;
+}
+
+.dark a[class~="border-bottom"] {
+  border-bottom: 1px solid #005693 !important;
+}
+
+.dark a[class~="nav-link"] {
+  color: #fff;
+}
+
+.dark #sidebar div[class~="border-top"] {
+  border-top: 1px solid #1782b8 !important;
+}
