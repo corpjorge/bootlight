@@ -14,7 +14,7 @@ Created with the [bootstrap 5.1](https://getbootstrap.com) core so it will allow
 
 ## Info
 
-- The repository includes CSS, SASS, HTML, typescript and JS files.
+- The repository includes CSS3, HTML5, SASS, typescript and JS files.
 
 ## Demo
 
@@ -27,7 +27,7 @@ Created with the [bootstrap 5.1](https://getbootstrap.com) core so it will allow
 - `yarn add bootlight`
 - Clone the repo: `git clone https://github.com/corpjorge/bootlight.git`.
 - [Download from Github](https://github.com/corpjorge/bootlight/archive/master.zip).
-- [Download from Site](https://www.bootlight.corpjorge.com/download).
+- [Download from Site](https://www.bootlight.corpjorge.com).
 
 
 ## Dark Mode
