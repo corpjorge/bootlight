@@ -1,41 +1,55 @@
-.dark {
-  color: #f5f6fa;
+.dark-mode-on {
+  color: #f5f6fa !important;
   background: #1e1e2f !important;
 }
 
-.dark div[class~="card"] {
+.dark-mode-on div[class~="card"] {
   color: #f5f6fa;
   background: #27293d !important;
 }
 
-.dark table {
+.dark-mode-on table {
   color: #f5f6fa;
 }
 
-.dark table tr:hover {
+.dark-mode-on td {
+  color: #f5f6fa !important;
+}
+
+.dark-mode-on table th {
+  color: #f5f6fa !important;
+}
+
+.dark-mode-on table tr:hover {
   background-color: #656782;
 }
 
-.dark table tr:hover th {
+.dark-mode-on table tr:hover th {
   color: #4cbebc;
 }
 
-.dark table tr:hover td {
+.dark-mode-on table tr:hover td {
   color: #4cbebc;
 }
 
-.dark #sidebar {
+.dark-mode-on #sidebar {
   background-color: #27293d;
 }
 
-.dark a[class~="border-bottom"] {
+.dark-mode-on a[class~="border-bottom"] {
   border-bottom: 1px solid #005693 !important;
 }
 
-.dark a[class~="nav-link"] {
+.dark-mode-on a[class~="nav-link"] {
   color: #fff;
 }
 
-.dark #sidebar div[class~="border-top"] {
+.dark-mode-on #sidebar div[class~="border-top"] {
   border-top: 1px solid #1782b8 !important;
 }
+
+.dark-mode-on input[class~="form-control-plaintext"] {
+  color: #f5f6fa !important;
+}
+
+
