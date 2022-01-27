@@ -1,4 +1,4 @@
-# [Bootlight](http://demo.bootlight.corpjorge.com/)
+# [Bootlight](https://bootlight.corpjorge.com/demo)
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 [![GitHub issues open](https://img.shields.io/github/issues/corpjorge/bootlight.svg)](https://github.com/corpjorge/bootlight/issues?q=is%3Aopen+is%3Aissue)
@@ -18,7 +18,7 @@ Created with the [bootstrap 5.1](https://getbootstrap.com) core so it will allow
 
 ## Demo
 
-- see [Demo](https://demo.bootlight.corpjorge.com/)
+- see [Demo](https://bootlight.corpjorge.com/demo)
 
 
 ## Quick start
