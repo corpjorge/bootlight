@@ -1,10 +1,290 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootlight</title>
+    <link href="../dist/css/bootlight.css" rel="stylesheet">
 </head>
-<body>
+<body class="">
+<div class="container-fluid">
+    <!--end alert-->
+    <div class="row mg-6">
+        <!--sidebar-->
+        <div id="sidebar" class="fixed-top flex-column flex-shrink-0 shadow-lg rounded"
+             style="width: 4.5rem; padding: 0;">
+            <a href="index.html" class="d-block p-3 link-dark text-decoration-none" title="Icon-only"
+               data-bs-toggle="tooltip"
+               data-bs-placement="right">
+                <i class="bi-compass" style="font-size: 2.30rem; color: cornflowerblue;"></i>
+                <span class="visually-hidden">Icon-only</span>
+            </a>
+            <ul class="nav nav-pills nav-flush flex-column mb-auto text-center" style="margin-bottom: 98% !important;">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link py-3 border-bottom" aria-current="page"
+                       title="Dashboard"
+                       data-bs-toggle="tooltip" data-bs-placement="right">
+                        <i class="bi bi-house" style="font-size: x-large;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="buttons.html" class="nav-link py-3 border-bottom" title="Buttons"
+                       data-bs-toggle="tooltip"
+                       data-bs-placement="right">
+                        <i class="bi bi-app-indicator" style="font-size: x-large;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="notifications.html" class="nav-link py-3 border-bottom active" title="Notifications"
+                       data-bs-toggle="tooltip"
+                       data-bs-placement="right">
+                        <i class="bi bi-bell" style="font-size: x-large;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="forms.html" class="nav-link py-3 border-bottom" title="Forms" data-bs-toggle="forms"
+                       data-bs-placement="right">
+                        <i class="bi bi-file-text" style="font-size: x-large;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="tables.html" class="nav-link py-3 border-bottom" title="Tables" data-bs-toggle="tables"
+                       data-bs-placement="right">
+                        <i class="bi bi-table" style="font-size: x-large;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="bootstrap.html" class="nav-link py-3 border-bottom" title="Bootstrap"
+                       data-bs-toggle="bootstrap"
+                       data-bs-placement="right">
+                        <i class="bi bi-bootstrap-fill" style="font-size: x-large; color: #7110f5"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="border-top">
+                <div class="d-flex align-items-center justify-content-center p-2 link-dark text-decoration-none"
+                     aria-expanded="false">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="dark-mode"
+                               style="margin-left: -37px;">
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown border-top">
+                <div class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none"
+                     aria-expanded="false">
+                    <a href="login.html" class="btn btn-danger shadow rounded text-white">X</a>
+                </div>
+            </div>
+        </div>
+        <!--end sidebar-->
+        <div class="col-sm min-vh-90 fade-in-top">
+            <!--navbar-->
+            <header id="nav-fixed">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Bootlight</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link" aria-current="page">Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="buttons.html" class="nav-link">Buttons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="notifications.html" class="nav-link active">Notifications</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="forms.html" class="nav-link">Forms</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="tables.html" class="nav-link">Tables</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="tables.html" class="nav-link">Bootstrap</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!--end navbar-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card shadow-lg rounded">
+                        <div class="card-body my-2">
+                            <div class="container-fluid">
+                                <h4>Notifications Style</h4>
+                                <div class="flex-shrink-0">
+                                    <div class="alert alert-primary" role="alert">
+                                        A simple primary alert—check it out!
+                                    </div>
+                                    <div class="alert alert-primary" role="alert">
+                                        A simple primary alert with <a href="#" class="alert-link">an example link</a>.
+                                        Give it a click if you like.
+                                    </div>
+                                    <div class="alert alert-primary d-flex align-items-center" role="alert">
+                                        <i class="bi bi-exclamation-triangle mx-2"></i>
+                                        <div>
+                                            An example alert with an icon
+                                        </div>
+                                    </div>
+                                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                        <strong>Holy guacamole!</strong> You should check in on some of those fields
+                                        below.
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                aria-label="Close"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-lg rounded">
+                        <div class="card-body my-2">
+                            <main class="flex-shrink-0">
+                                <div class="container-fluid">
+                                    <h4>Notification states</h4>
+                                    <div class="alert alert-primary" role="alert">
+                                        A simple primary alert—check it out!
+                                    </div>
+                                    <div class="alert alert-secondary" role="alert">
+                                        A simple secondary alert—check it out!
+                                    </div>
+                                    <div class="alert alert-success" role="alert">
+                                        A simple success alert—check it out!
+                                    </div>
+                                    <div class="alert alert-danger" role="alert">
+                                        A simple danger alert—check it out!
+                                    </div>
+                                    <div class="alert alert-warning" role="alert">
+                                        A simple warning alert—check it out!
+                                    </div>
+                                    <div class="alert alert-info" role="alert">
+                                        A simple info alert—check it out!
+                                    </div>
+                                    <div class="alert alert-light" role="alert">
+                                        A simple light alert—check it out!
+                                    </div>
+                                    <div class="alert alert-dark" role="alert">
+                                        A simple dark alert—check it out!
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card shadow-lg rounded">
+                        <div class="card-body my-2">
+                            <main class="flex-shrink-0">
+                                <div class="container-fluid">
+                                    <div class="text-center col-md-12">
+                                        <h4>Modal</h4>
+                                        <button type="button" class="btn btn-primary my-2 px-4" data-bs-toggle="modal"
+                                                data-bs-target="#Classic">Classic modal
+                                        </button>
+                                        <button type="button" class="btn btn-success my-2 px-4 text-white"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#Static">Static backdrop
+                                        </button>
+                                        <button type="button" class="btn btn-dark my-2 px-4" data-bs-toggle="modal"
+                                                data-bs-target="#Alert">Small alert modal
+                                        </button>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Clasic -->
+        <div class="modal fade" id="Classic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ClassicModal">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit magnis tellus, euismod nunc congue nisl
+                        quisque bibendum parturient. Elementum velit imperdiet aliquet aenean non primis, nullam semper
+                        augue euismod ad. Euismod proin elementum enim risus ridiculus urna potenti, erat pretium varius
+                        ad bibendum imperdiet eget mattis, quis iaculis a aliquam dignissim odio.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary my-2 px-4" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary my-2 px-4">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end modal-->
 
+        <!-- Modal Static -->
+        <div class="modal fade" id="Static" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit magnis tellus, euismod nunc congue nisl
+                        quisque bibendum parturient. Elementum velit imperdiet aliquet aenean non primis, nullam semper
+                        augue euismod ad. Euismod proin elementum enim risus ridiculus urna potenti, erat pretium varius
+                        ad bibendum imperdiet eget mattis, quis iaculis a aliquam dignissim odio.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary my-2 px-4" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary my-2 px-4">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end Static modal-->
+
+        <!-- Alert modal -->
+        <div class="modal-dialog ">
+            <div class="modal fade" id="Alert" tabindex="-1" aria-labelledby="Alert" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-sm">
+                    <div class="modal-content bg-warning text-white">
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit magnis tellus, euismod nunc congue
+                            nisl
+                            quisque bibendum parturient.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary my-2 px-4" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            ...
+        </div>
+        <!-- end Small modal -->
+
+        <!--footer-->
+        <footer id="footer" class="footer mt-auto text-end">
+            <div class="container-fluid">
+                <span class="text-muted">Desarrollado por <a href="https://superfluo.tech" target="_blank">SuperFluo.tech</a> </span>
+            </div>
+        </footer>
+        <!--end footer-->
+    </div>
+</div>
+<script src="../dist/js/bootstrap.min.js"></script>
+<script src="../dist/js/bootlight.js"></script>
 </body>
 </html>

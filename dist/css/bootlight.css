@@ -5448,7 +5448,7 @@ textarea.form-control-lg {
 }
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
-  transform: translate(0, -50px);
+  transform: scale(0.5);
 }
 @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
@@ -11703,104 +11703,6 @@ a {
     display: block;
   }
 }
-.alert {
-  position: absolute;
-  padding-right: 55px;
-  width: 300px;
-  margin-top: 40px;
-  border-radius: 15px;
-  background-color: #FFF;
-  color: #283896;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
-  z-index: 2;
-}
-
-/* alert-success */
-.alert-success button {
-  background-color: #008ECF;
-  color: #FFF;
-}
-
-.alert-success hr {
-  border-color: #008ECF;
-}
-
-/* alert-warning */
-.alert-warning button {
-  background-color: #E5A218;
-  color: #FFF;
-}
-
-.alert-warning hr {
-  border-color: #E5A218;
-}
-
-.alert-warning strong {
-  color: #e5a218;
-}
-
-/* alert-danger */
-.alert-danger button {
-  background-color: #F00;
-  color: #FFF;
-}
-
-.alert-danger hr {
-  border-color: #F00;
-}
-
-.alert-danger strong {
-  color: red;
-}
-
-.hr-alert {
-  margin-top: 0;
-  margin-bottom: 10px;
-  border: 0;
-  border-top: 4px solid #eee;
-}
-
-.btn-circle {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.4286;
-  border-radius: 15px;
-}
-
-.btn-circle.btn-lg, .btn-group-lg > .btn-circle.btn {
-  width: 50px;
-  height: 50px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
-  border-radius: 25px;
-}
-
-.btn-circle.btn-xl-alert {
-  width: 5px;
-  height: 5px;
-  padding: 9px;
-  font-size: 24px;
-  line-height: 1.33;
-  border-radius: 35px;
-  cursor: default;
-  transition: background-color 1s, color 1s;
-}
-
-.btn-float-alert {
-  position: absolute;
-  right: -6px;
-  top: -7px;
-}
-
-.pull-right {
-  position: absolute;
-  right: 5%;
-}
-
 #logo {
   width: 99%;
 }
@@ -11885,8 +11787,16 @@ a {
   border-top: 1px solid #1782b8 !important;
 }
 
+.modal-header {
+  border-bottom: 1px solid #dee2e640;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e640;
+}
+
 .modal-backdrop {
-  width: 0;
+  background-color: #00000024;
 }
 
 /*# sourceMappingURL=bootlight.css.map */
