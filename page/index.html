@@ -3,43 +3,74 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <meta name="theme-color" content="#005693">
+    <meta name="description" content="Bootlight ui Templates and Dashboards built on top of Bootstrap"/>
+    <meta name="keywords"
+          content="Bootlight, Bootlight ui, bootstrap 5.1, theme, bootstrap template, free, css3, css template">
+    <meta property="og:title" content="Bootstrap Template">
+    <meta property="og:url" content="bootlight.corpjorge.com">
+    <meta property="og:image" content="xxx.jpg">
+    <meta property="og:type" content="article"/>
+    <meta property="og:description" content="Bootlight ui Templates and Dashboards built on top of Bootstrap"/>
+    <meta property="og:site_name" content="Bootlight"/>
+    <meta name="author" content="SuperFluo">
+    <meta itemprop="name" content="Bootlight">
+    <meta itemprop="image" content="xxxxxxxx.jpg">
     <title>Bootlight</title>
     <link href="../dist/css/bootlight.css" rel="stylesheet">
 </head>
 <body class="">
 <div class="container-fluid">
-    <div class="pull-alert scale-in-ver-top">
-        <div class="alert pull-right alert-danger">
-            <button type="button" class="btn btn-default btn-circle btn-xl-alert btn-lateral btn-float-alert"></button>
-            <hr class="hr-alert">
-            <strong> message</strong>
-        </div>
-    </div>
     <div class="row mg-6">
+        <!--sidebar-->
         <div id="sidebar" class="fixed-top flex-column flex-shrink-0 shadow-lg rounded"
              style="width: 4.5rem; padding: 0;">
-            <a href="/" class="d-block p-3 link-dark text-decoration-none" title="Icon-only" data-bs-toggle="tooltip"
+            <a href="index.html" class="d-block p-3 link-dark text-decoration-none" title="Icon-only"
+               data-bs-toggle="tooltip"
                data-bs-placement="right">
                 <i class="bi-compass" style="font-size: 2.30rem; color: cornflowerblue;"></i>
                 <span class="visually-hidden">Icon-only</span>
             </a>
-            <ul class="nav nav-pills nav-flush flex-column mb-auto text-center" style="margin-bottom: 300% !important;">
+            <ul class="nav nav-pills nav-flush flex-column mb-auto text-center" style="margin-bottom: 98% !important;">
                 <li class="nav-item">
-                    <a href="" class="nav-link py-3 border-bottom active" aria-current="page" title="Home"
+                    <a href="index.html" class="nav-link py-3 border-bottom active" aria-current="page"
+                       title="Dashboard"
                        data-bs-toggle="tooltip" data-bs-placement="right">
-                        <i class="bi-house" style="font-size: x-large;"></i>
+                        <i class="bi bi-house" style="font-size: x-large;"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="" class="nav-link py-3 border-bottom" title="Dashboard" data-bs-toggle="tooltip"
+                    <a href="buttons.html" class="nav-link py-3 border-bottom" title="Buttons"
+                       data-bs-toggle="tooltip"
                        data-bs-placement="right">
-                        <i class="bi bi-receipt-cutoff" style="font-size: x-large;"></i>
+                        <i class="bi bi-app-indicator" style="font-size: x-large;"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="" class="nav-link py-3 border-bottom" title="Orders" data-bs-toggle="tooltip"
+                    <a href="notifications.html" class="nav-link py-3 border-bottom" title="Notifications"
+                       data-bs-toggle="tooltip"
                        data-bs-placement="right">
-                        <i class="bi-building" style="font-size: x-large;"></i>
+                        <i class="bi bi-bell" style="font-size: x-large;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="forms.html" class="nav-link py-3 border-bottom" title="Forms" data-bs-toggle="forms"
+                       data-bs-placement="right">
+                        <i class="bi bi-file-text" style="font-size: x-large;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="tables.html" class="nav-link py-3 border-bottom" title="Tables" data-bs-toggle="tables"
+                       data-bs-placement="right">
+                        <i class="bi bi-table" style="font-size: x-large;"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="bootstrap.html" class="nav-link py-3 border-bottom" title="Bootstrap"
+                       data-bs-toggle="bootstrap"
+                       data-bs-placement="right">
+                        <i class="bi bi-bootstrap-fill" style="font-size: x-large; color: #7110f5"></i>
                     </a>
                 </li>
             </ul>
@@ -55,11 +86,13 @@
             <div class="dropdown border-top">
                 <div class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none"
                      aria-expanded="false">
-                    <button type="button" class="btn btn-danger shadow rounded text-white">X</button>
+                    <a href="login.html" class="btn btn-danger shadow rounded text-white">X</a>
                 </div>
             </div>
         </div>
+        <!--end sidebar-->
         <div class="col-sm min-vh-90 fade-in-top">
+            <!--navbar-->
             <header id="nav-fixed">
                 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
                     <div class="container-fluid">
@@ -72,113 +105,297 @@
                         <div class="collapse navbar-collapse" id="navbarCollapse">
                             <ul class="navbar-nav me-auto mb-2 mb-md-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" :to="{name: 'Home'}">Home</a>
+                                    <a href="index.html" class="nav-link active" aria-current="page">Dashboard</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link">Votaciones</a>
+                                    <a href="buttons.html" class="nav-link">Buttons</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link">Entidades</a>
+                                    <a href="notifications.html" class="nav-link">Notifications</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="forms.html" class="nav-link">Forms</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="tables.html" class="nav-link">Tables</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="tables.html" class="nav-link">Bootstrap</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </header>
+            <!--end navbar-->
             <div class="row">
-                <div class="col">
-                    <div class="card shadow-lg rounded">
-                        <div class="card-body my-2">
-                            <main class="flex-shrink-0">
-                                <div class="container-fluid">
-                                    <h4>Entidades</h4>
-                                    <hr/>
-                                    <form autocomplete="off">
-                                        <div class="row g-3">
-                                            <div class="col-sm-6">
-                                                <label for="name" class="form-label">Nombre</label>
-                                                <input type="text" class="form-control" id="name"
-                                                       placeholder="Fondo de empleados"
-                                                       required>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <label for="db" class="form-label">Base de datos</label>
-                                                <div class="input-group mb-3">
-                                                    <span class="input-group-text" id="db">BD</span>
-                                                    <input type="text" class="form-control" placeholder="db"
-                                                           aria-label="db"
-                                                           aria-describedby="basic-addon1"
-                                                           required/>
-                                                </div>
-
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <label for="domain" class="form-label">Dominio</label>
-                                                <input type="text" class="form-control" id="domain"
-                                                       placeholder="dominio.com"
-                                                       required/>
+                <!--content-->
+                <div class="">
+                    <div class="row">
+                        <div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="card shadow-lg rounded">
+                                        <div class="card-header p-3 pt-2">
+                                            <button class="btn btn-info rounded-circle shadow-sm"
+                                                    style="font-size: 24px;">
+                                                <i class="bi bi-tsunami text-white"></i>
+                                            </button>
+                                            <div class="text-end pt-1">
+                                                <a class="text-sm mb-0 text-capitalize">Bookings</a>
+                                                <h4 class="mb-0">281</h4>
                                             </div>
                                         </div>
-                                        <hr/>
-                                        <div class="progress mb-2" style="height: 1px;">
-                                            <div class="progress-bar "
-                                                 role="progressbar"
-                                                 aria-valuemin="0"
-                                                 aria-valuemax="100">
-                                            </div>
+                                        <hr class="dark horizontal my-0">
+                                        <div class="card-footer p-3">
+                                            <p class="mb-0"><span
+                                                    class="text-success text-sm font-weight-bolder">+55% </span>than
+                                                last
+                                                week</p>
                                         </div>
-                                        <div class="d-grid gap-2 col-6 mx-auto">
-                                            <button class="btn btn-info text-white" type="submit">Crear Entidad</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </main>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-lg rounded">
-                        <div class="card-body my-2">
-                            <main class="flex-shrink-0">
-                                <div class="container-fluid">
-                                    <div class="table-responsive">
-                                        <table class="table table-hover">
-                                            <thead>
-                                            <tr>
-                                                <th scope="col">#</th>
-                                                <th scope="col">Nombre</th>
-                                                <th scope="col">Migración</th>
-                                                <th scope="col">Ver</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">id</th>
-                                                <td>name</td>
-                                                <td>db</td>
-                                                <td>
-                                                    <a href="">
-                                                        <i class="bi bi-arrow-right-circle"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
                                     </div>
                                 </div>
-                            </main>
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt-sm-0 mt-4">
+                                    <div class="card shadow-lg rounded">
+                                        <div class="card-header p-3 pt-2">
+                                            <button class="btn btn-success rounded-circle shadow-sm"
+                                                    style="font-size: 24px;">
+                                                <i class="bi bi-bar-chart-line text-white"></i>
+                                            </button>
+                                            <div class="text-end pt-1">
+                                                <a class="text-sm mb-0 text-capitalize">Today's Users</a>
+                                                <h4 class="mb-0">2,300</h4>
+                                            </div>
+                                        </div>
+                                        <hr class="dark horizontal my-0">
+                                        <div class="card-footer p-3">
+                                            <p class="mb-0"><span
+                                                    class="text-success text-sm font-weight-bolder">+3% </span>than last
+                                                month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4">
+                                    <div class="card">
+                                        <div class="card-header p-3 pt-2 bg-transparent">
+                                            <button class="btn btn-danger rounded-circle shadow-sm"
+                                                    style="font-size: 24px;">
+                                                <i class="bi bi-house-door text-white"></i>
+                                            </button>
+                                            <div class="text-end pt-1">
+                                                <a class="text-sm mb-0 text-capitalize ">Revenue</a>
+                                                <h4 class="mb-0 ">34k</h4>
+                                            </div>
+                                        </div>
+                                        <hr class="horizontal my-0 dark">
+                                        <div class="card-footer p-3">
+                                            <p class="mb-0 "><span
+                                                    class="text-success text-sm font-weight-bolder">+1% </span>than
+                                                yesterday</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4">
+                                    <div class="card shadow-lg rounded">
+                                        <div class="card-header p-3 pt-2 bg-transparent">
+                                            <button class="btn btn-warning rounded-circle shadow-sm"
+                                                    style="font-size: 24px;">
+                                                <i class="bi bi-people text-white"></i>
+                                            </button>
+                                            <div class="text-end pt-1">
+                                                <a class="text-sm mb-0 text-capitalize ">Followers</a>
+                                                <h4 class="mb-0 ">+91</h4>
+                                            </div>
+                                        </div>
+                                        <hr class="horizontal my-0 dark">
+                                        <div class="card-footer p-3">
+                                            <p class="mb-0 ">Just updated</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow-lg rounded">
+                                <div class="d-flex m-4">
+                                    <button class="btn btn-secondary rounded-circle shadow-sm" style="font-size: 24px;">
+                                        <i class="bi bi-globe"></i>
+                                    </button>
+                                    <h6 class="mt-3 mb-2 ms-3 ">Sales by Country</h6>
+                                </div>
+                                <div class="card-body p-3">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-7">
+                                            <div class="table-responsive">
+                                                <table class="table align-items-center ">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="w-30">
+                                                            <div class="d-flex px-2 py-1 align-items-center">
+                                                                <div>
+                                                                    <img src="../assets/img/US.png"
+                                                                         alt="Country flag">
+                                                                </div>
+                                                                <div class="ms-4">
+                                                                    <p class="text-xs font-weight-bold mb-0 ">
+                                                                        Country:</p>
+                                                                    <h6 class="text-sm font-weight-normal mb-0 ">United
+                                                                        States</h6>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Sales:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">2500</h6>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Value:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">
+                                                                    $230,900</h6>
+                                                            </div>
+                                                        </td>
+                                                        <td class="align-middle text-sm">
+                                                            <div class="col text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Bounce:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">29.9%</h6>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="w-30">
+                                                            <div class="d-flex px-2 py-1 align-items-center">
+                                                                <div>
+                                                                    <img src="../assets/img/DE.png"
+                                                                         alt="Country flag">
+                                                                </div>
+                                                                <div class="ms-4">
+                                                                    <p class="text-xs font-weight-bold mb-0 ">
+                                                                        Country:</p>
+                                                                    <h6 class="text-sm font-weight-normal mb-0 ">
+                                                                        Germany</h6>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Sales:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">3.900</h6>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Value:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">
+                                                                    $440,000</h6>
+                                                            </div>
+                                                        </td>
+                                                        <td class="align-middle text-sm">
+                                                            <div class="col text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Bounce:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">40.22%</h6>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="w-30">
+                                                            <div class="d-flex px-2 py-1 align-items-center">
+                                                                <div>
+                                                                    <img src="../assets/img/GB.png"
+                                                                         alt="Country flag">
+                                                                </div>
+                                                                <div class="ms-4">
+                                                                    <p class="text-xs font-weight-bold mb-0 ">
+                                                                        Country:</p>
+                                                                    <h6 class="text-sm font-weight-normal mb-0 ">Great
+                                                                        Britain</h6>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Sales:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">1.400</h6>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Value:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">
+                                                                    $190,700</h6>
+                                                            </div>
+                                                        </td>
+                                                        <td class="align-middle text-sm">
+                                                            <div class="col text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Bounce:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">23.44%</h6>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="w-30">
+                                                            <div class="d-flex px-2 py-1 align-items-center">
+                                                                <div>
+                                                                    <img src="../assets/img/BR.png"
+                                                                         alt="Country flag">
+                                                                </div>
+                                                                <div class="ms-4">
+                                                                    <p class="text-xs font-weight-bold mb-0 ">
+                                                                        Country:</p>
+                                                                    <h6 class="text-sm font-weight-normal mb-0 ">
+                                                                        Brasil</h6>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Sales:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">562</h6>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Value:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">
+                                                                    $143,960</h6>
+                                                            </div>
+                                                        </td>
+                                                        <td class="align-middle text-sm">
+                                                            <div class="col text-center">
+                                                                <p class="text-xs font-weight-bold mb-0 ">Bounce:</p>
+                                                                <h6 class="text-sm font-weight-normal mb-0 ">32.14%</h6>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-5 text-center">
+                                            <div id="map" class="mt-0 mt-lg-n4 jvm-container">
+                                                <img src="../assets/img/maps.png" style="width: 60%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!--end content-->
             </div>
+
         </div>
+        <!--footer-->
         <footer id="footer" class="footer mt-auto text-end">
             <div class="container-fluid">
                 <span class="text-muted">Desarrollado por <a href="https://superfluo.tech" target="_blank">SuperFluo.tech</a> </span>
             </div>
         </footer>
+        <!--end footer-->
     </div>
 </div>
+<script src="../dist/js/bootstrap.min.js"></script>
 <script src="../dist/js/bootlight.js"></script>
 </body>
 </html>
