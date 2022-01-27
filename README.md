@@ -27,7 +27,7 @@ Created with the [bootstrap 5.1](https://getbootstrap.com) core so it will allow
 - `yarn add bootlight`
 - Clone the repo: `git clone https://github.com/corpjorge/bootlight.git`.
 - [Download from Github](https://github.com/corpjorge/bootlight/archive/master.zip).
-- [Download from Site](https://www.bootlight.corpjorge.com).
+- [Download from Site](https://bootlight.corpjorge.com).
 
 
 ## Dark Mode
