@@ -43,5 +43,5 @@ Created with the [bootstrap 5.1](https://getbootstrap.com) core so it will allow
 
 ## Licensing
 
-- Licensed under MIT (https://github.com/corpjorge/bootlight/master/LICENSE.md)
+- Licensed under MIT (https://github.com/corpjorge/bootlight/blob/master/LICENSE)
 
