@@ -1,4 +1,4 @@
-# [Bootlight](https://bootlight.corpjorge.com/demo)
+# [Bootlight](http://bootlight.corpjorge.com/demo)
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 [![GitHub issues open](https://img.shields.io/github/issues/corpjorge/bootlight.svg)](https://github.com/corpjorge/bootlight/issues?q=is%3Aopen+is%3Aissue)
@@ -6,7 +6,7 @@
 
 ![Image](assets/img/screenshot_3.jpg)
 
-[Bootlight](https://bootlight.corpjorge.com) is a free Admin, new design inspired by Bootstrap 5.1
+[Bootlight](http://bootlight.corpjorge.com) is a free Admin, new design inspired by Bootstrap 5.1
 
 
 Created with the [bootstrap 5.1](https://getbootstrap.com) core so it will allow you to use these components without any inconvenience
@@ -18,7 +18,7 @@ Created with the [bootstrap 5.1](https://getbootstrap.com) core so it will allow
 
 ## Demo
 
-- see [Demo](https://bootlight.corpjorge.com/demo)
+- see [Demo](http://bootlight.corpjorge.com/demo)
 
 
 ## Quick start
@@ -27,7 +27,7 @@ Created with the [bootstrap 5.1](https://getbootstrap.com) core so it will allow
 - `yarn add bootlight`
 - Clone the repo: `git clone https://github.com/corpjorge/bootlight.git`.
 - [Download from Github](https://github.com/corpjorge/bootlight/archive/master.zip).
-- [Download from Site](https://bootlight.corpjorge.com).
+- [Download from Site](http://bootlight.corpjorge.com).
 
 
 ## Dark Mode
